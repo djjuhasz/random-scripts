@@ -1,6 +1,6 @@
 <?php
 
-// php move_source_to_target.php original_file.xliff translator_file.xliff > output_file.xliff
+// php move_xliff_source_to_target.php original_file.xliff translator_file.xliff > output_file.xliff
 
 if (2 > count($argv))
 {
