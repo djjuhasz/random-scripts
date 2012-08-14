@@ -16,6 +16,7 @@ foreach (array(1,2) as $i)
 foreach ($docs[0]->file->body->{'trans-unit'} as $key => $unit)
 {
   $node = $docs[1]->xpath('//trans-unit[@id='.$unit['id'].']');
+
   if (0 < count($node))
   {
     $target = (string) $node[0]->source;
